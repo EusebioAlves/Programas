@@ -1,0 +1,15 @@
+import os
+os.system('cls')
+
+dviagem = float(input('Digite a distancia da viagem.'))
+
+preçokm1 = 0.5
+preçokm2 = 0.45
+
+formula1 = dviagem * preçokm1
+formula2 = dviagem * preçokm2
+
+if dviagem < 200:
+    print(f'O valor da viagem será de {formula1}')
+else:
+    print(f'O valor da viagem será de {formula2}')
